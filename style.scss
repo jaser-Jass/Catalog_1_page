@@ -671,7 +671,7 @@ svg:hover {
           gap: 30px;
           margin-bottom: 48px;
 }
-.displeyNone {
+.itemList__item3 {
   display: none;
 }
 .itemList__img {
@@ -739,8 +739,55 @@ svg:hover {
 .basementCard2 {
   max-width: 200px;
 }
-.surfer {
+
 
 }
+@media(max-width: 768px) {
+  $widthSite: 378px;
+  .displeyNoneMobal {
+    display: none;
+  }
+.top-head {
+  background-color: #F8F3F4;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+gap: 30px;
+}
+ .card {
+width: 375px;
+ left: 200px;
+ }
+.card p {
+  margin: 0;
+}
 
+
+.itemList {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  &__item2 {
+    order: 1;
+  }
+}
+.socialMediaContent {
+  display: flex;
+flex-direction: column-reverse;
+gap: 30px;
+}
+.dropdown-content {
+  right: 0;
+  display: none;
+  position: absolute;
+  clear: both;
+  line-height: 26px;
+  color: #999;
+  min-width: 200px;
+  white-space: wrap;
+
+  z-index: 1;
+}
 }
