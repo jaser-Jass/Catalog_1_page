@@ -705,6 +705,9 @@ svg:hover {
   .card p {
     margin: 0;
   }
+  .card svg {
+    width: 50%;
+  }
   .itemList {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
