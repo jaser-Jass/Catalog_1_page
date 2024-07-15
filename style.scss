@@ -756,14 +756,49 @@ svg:hover {
 gap: 30px;
 }
  .card {
+
+
 width: 375px;
- left: 200px;
+border: none;
+background: none;
  }
-.card p {
-  margin: 0;
+ .card h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+ }
+ .card h2 {
+  margin-top: 20px;
+ }
+.card p  {
+  margin: 30px 20px 20px 1px;
 }
 .card svg {
   width: 50%
+}
+.buttonCard {
+
+  border: 1px solid $colorSelectSite;
+  padding: 5px 4px 4px 4px;
+  color: $colorSelectSite;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.buttonCard svg {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.buttonCard {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 
@@ -775,6 +810,56 @@ width: 375px;
   &__item2 {
     order: 1;
   }
+}
+
+  .surfer {
+      opacity: 0.5;
+      width: 100vw;
+      height: 150vw;
+      object-fit: cover;
+      object-position: bottom;
+}
+.basement-content {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 150px;
+}
+
+.basementCard1 {
+  padding: 64px 20px 30px 10px;
+  max-width: 360px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basementCard2 {
+  padding: 10px 8px 10px 8px;
+  max-width: 357px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.emailBox {
+
+  border: none;
+  width: 200px;
+  height: 39px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #E1E1E1;
+
+}
+
+.basementButton {
+  padding: 9px;
 }
 .socialMediaContent {
   display: flex;
